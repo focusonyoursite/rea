@@ -1,0 +1,684 @@
+{
+  "capture_path": "/tmp/rea-svgnew/page-capture.json",
+  "capture_sha256": "e2ede9c485ddc88825a681a2a8cd56fb7978a2fce6479410e0353aa29265f973",
+  "capture_kind": "page-inspection",
+  "source_evidence_id": "ev_1aefc24955307d5736b69fefe229b2f5fc90eba4d35e20f179e85b9a7b1ac819",
+  "capture_completeness": {
+    "status": "policy_filtered",
+    "conditions": [
+      "attach_limited",
+      "policy_filtered"
+    ],
+    "policy_filtered_sections": [
+      "console_text",
+      "metadata",
+      "resources",
+      "scripts",
+      "websocket_shapes"
+    ],
+    "attach_limited_sections": [
+      "console_events",
+      "metadata",
+      "network_requests",
+      "websocket_connections",
+      "websocket_frames"
+    ],
+    "truncated_sections": [],
+    "unavailable_sections": [],
+    "excluded": [
+      {
+        "section": "console_text",
+        "reason": "not_approved",
+        "count": null
+      },
+      {
+        "section": "metadata",
+        "reason": "disallowed_origin",
+        "count": 7
+      },
+      {
+        "section": "metadata",
+        "reason": "unsupported_url",
+        "count": 1
+      },
+      {
+        "section": "resources",
+        "reason": "disallowed_origin",
+        "count": 3
+      },
+      {
+        "section": "scripts",
+        "reason": "disallowed_origin",
+        "count": 1
+      },
+      {
+        "section": "websocket_shapes",
+        "reason": "not_approved",
+        "count": null
+      }
+    ],
+    "dropped_events": {
+      "scripts": 0,
+      "network_requests": 0,
+      "console_events": 0,
+      "websocket_connections": 0,
+      "websocket_frames": 0,
+      "webmcp_tools": 0,
+      "timeline_events": 0,
+      "total": 0
+    }
+  },
+  "output_directory": "/tmp/rea-svgnew/app",
+  "analysis_input": {
+    "input_path": "/tmp/rea-svgnew/app/files",
+    "format": "directory"
+  },
+  "scripts": [
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_0851baaf0d8ecb22ee793f9595d0dbd6f81e348f070f87da08155b70e75495db",
+        "frame_id": "519DA032F2CDA6657410A4321C68EFBD",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": "https://svg.new/_next/static/chunks/6d83d86f397856b4.js.map"
+      },
+      "url": "https://svg.new/_next/static/chunks/1355971481e13e12.js?dpl=dpl_J3jorTQ1uucN3auC8HiadLvK6xZ6",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-1-c810bf63ea4b80cf58db33dd720bf9d5bf134bf653e77c1268c6b0b3f1a8c2be.js",
+        "layout": "isolated",
+        "layout_reason": "URL query, fragment, or credentials cannot select a canonical local module.",
+        "sha256": "e405f71832847073b1bb81994d2831ee7392b486994a619dfc43338117f78a54",
+        "bytes": 40108,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_14326070e66797c800f3fa03d14d6b48fa6e71ec2a877e93afe26c0417cb965d",
+        "frame_id": "519DA032F2CDA6657410A4321C68EFBD",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": "https://svg.new/_next/static/chunks/51b4bdb8ae42d6a6.js.map"
+      },
+      "url": "https://svg.new/_next/static/chunks/1a55057afefea17a.js?dpl=dpl_J3jorTQ1uucN3auC8HiadLvK6xZ6",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-2-a8d9f4802049bdbc8e6a1b6d8332bd464eb5c3e796c14db82abda1c072e4486d.js",
+        "layout": "isolated",
+        "layout_reason": "URL query, fragment, or credentials cannot select a canonical local module.",
+        "sha256": "d0b8eb57738fa27998aba3092e99c17dc4927fac4be5aa2da56991ad3699cf12",
+        "bytes": 99722,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_1f521e3fa8ee4a6eb811c8be11792fcb353db54c24d1771586712dba241e337b",
+        "frame_id": "519DA032F2CDA6657410A4321C68EFBD",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": "https://svg.new/_next/static/chunks/b9bc47e3a8747942.js.map"
+      },
+      "url": "https://svg.new/_next/static/chunks/06f4b9dc422dcf65.js?dpl=dpl_J3jorTQ1uucN3auC8HiadLvK6xZ6",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-3-d566f2a0404eb690fc26e9e42c368de97612b788c430584d78de2902099e45bc.js",
+        "layout": "isolated",
+        "layout_reason": "URL query, fragment, or credentials cannot select a canonical local module.",
+        "sha256": "5b0fae406f6f44756b17b731b9bfea69e697b2b289e69d85828c915a51efe8d8",
+        "bytes": 12970,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_277482c2db6ba644495f1491ee8231ac087c28d046eb0a2d409d7e91565e4b97",
+        "frame_id": "519DA032F2CDA6657410A4321C68EFBD",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": "https://svg.new/_next/static/chunks/36f4ac619ca70052.js.map"
+      },
+      "url": "https://svg.new/_next/static/chunks/fe0c4ac0f2bf566e.js?dpl=dpl_J3jorTQ1uucN3auC8HiadLvK6xZ6",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-4-f33a4d0ad05d4729e06e618cdcb3850c97ea7089ca7cd7086430f115e43ba9d4.js",
+        "layout": "isolated",
+        "layout_reason": "URL query, fragment, or credentials cannot select a canonical local module.",
+        "sha256": "5979544e3836e2b1a3a3caf63a8f8e47a6ba76a3e5b68e65ac21a1005526e6a0",
+        "bytes": 51142,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_33b8b55bde07f71d90c9ebdd58967a84a1116f1475715e19e1a7dd4c9b783167",
+        "frame_id": "519DA032F2CDA6657410A4321C68EFBD",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://svg.new/_next/static/chunks/f7ee4aab4d5daae1.js?dpl=dpl_J3jorTQ1uucN3auC8HiadLvK6xZ6",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-5-165bbf8caf34f5b3321bb26d54690d78678a4adc1aaa63f8f443d1997381dd38.js",
+        "layout": "isolated",
+        "layout_reason": "URL query, fragment, or credentials cannot select a canonical local module.",
+        "sha256": "ca57c77d49372963fe3e66efdf22a52563c0e6288380f9ccfb307cdc475d4113",
+        "bytes": 371,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_3cdb0978a7f69cac03548c7d159972f2d3b91c56530b8146edd9df952665f4e1",
+        "frame_id": "519DA032F2CDA6657410A4321C68EFBD",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://svg.new/_next/static/chunks/5267c32c6fcdaead.js?dpl=dpl_J3jorTQ1uucN3auC8HiadLvK6xZ6",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-6-b034968ec5e14b1683959b162419bdb84d7841779c60ccabd3e1dd58661c8394.js",
+        "layout": "isolated",
+        "layout_reason": "URL query, fragment, or credentials cannot select a canonical local module.",
+        "sha256": "cc65c0550bb6ab5b63f4f73c25df2e0cf255dd02b20a9fda674a601ef30fdb3e",
+        "bytes": 369,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_4973e393a80b74e802557a27346a97ed3e95c83593422729c20f6fbc75f329c7",
+        "frame_id": "519DA032F2CDA6657410A4321C68EFBD",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": "https://svg.new/_next/static/chunks/512515dc561e593e.js.map"
+      },
+      "url": "https://svg.new/_next/static/chunks/turbopack-71875355fa0fde50.js?dpl=dpl_J3jorTQ1uucN3auC8HiadLvK6xZ6",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-7-313283fbd1b0072ff55697669f9ffec001b7ca7d6178da0d435e43573f216e7d.js",
+        "layout": "isolated",
+        "layout_reason": "URL query, fragment, or credentials cannot select a canonical local module.",
+        "sha256": "2bfd88d22acdfadf00fdb65a175e1e9cf28fe0e4f42fccd6a5d1c6eb652fa8c5",
+        "bytes": 10853,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_50335b08e774a50e0b973479a56647ca0dd528e5c505cfaab6d9668baeeb18cd",
+        "frame_id": "519DA032F2CDA6657410A4321C68EFBD",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": "https://svg.new/_next/static/chunks/f832704e46dcad08.js.map"
+      },
+      "url": "https://svg.new/_next/static/chunks/ee51851c14462633.js?dpl=dpl_J3jorTQ1uucN3auC8HiadLvK6xZ6",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-8-71dafd729e01871093729b8f305863e312926bfc07701f6b93846ba8673da58a.js",
+        "layout": "isolated",
+        "layout_reason": "URL query, fragment, or credentials cannot select a canonical local module.",
+        "sha256": "2350c052918b65b3c10df7dcfe99d57c04176309676ff2edd393a59ea97df32c",
+        "bytes": 205223,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_55b240b30b8ff64839139b553629219a0ad5104ca17e3f3d7d4c96150da9f788",
+        "frame_id": "519DA032F2CDA6657410A4321C68EFBD",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": "https://svg.new/_next/static/chunks/c763cb468138d1a5.js.map"
+      },
+      "url": "https://svg.new/_next/static/chunks/2fa7623fb210f5d2.js?dpl=dpl_J3jorTQ1uucN3auC8HiadLvK6xZ6",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-9-d3643280ea7597f08724c816fce832e95425f86308959eeb17c93c6df83e7f40.js",
+        "layout": "isolated",
+        "layout_reason": "URL query, fragment, or credentials cannot select a canonical local module.",
+        "sha256": "54f0c8b356b9ea51bdf4dc9305f90ee910d01ba00774fde64221752e548bd559",
+        "bytes": 51832,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_55d5eff975d7f95355f0e4d79db89436d4bb8c2e82e48c0077e51db597ca3619",
+        "frame_id": "519DA032F2CDA6657410A4321C68EFBD",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://svg.new/_next/static/_yBE_voFv0J8NfiWg5L9e/_buildManifest.js?dpl=dpl_J3jorTQ1uucN3auC8HiadLvK6xZ6",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-10-dead2453a743de004c1625449bab03badff0fdcd6b7fd3959021d67da790ac6d.js",
+        "layout": "isolated",
+        "layout_reason": "URL query, fragment, or credentials cannot select a canonical local module.",
+        "sha256": "ccc69feda73cdef32d6e6739f70146c6e2e086f60e1a0f36c4e7982f91d17d53",
+        "bytes": 6649,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_63aa67f2ba3a393eedcdbe37e44d7172d525acdb691c135107b5ac7cf07a594d",
+        "frame_id": "519DA032F2CDA6657410A4321C68EFBD",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": "https://svg.new/_next/static/chunks/1415e7e9ba103474.js.map"
+      },
+      "url": "https://svg.new/_next/static/chunks/f88a0da20fd449d5.js?dpl=dpl_J3jorTQ1uucN3auC8HiadLvK6xZ6",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-11-8378ef78473d8bd269f9eb79b0111ae4d9fd2059ab07ace00e825d2feba4e314.js",
+        "layout": "isolated",
+        "layout_reason": "URL query, fragment, or credentials cannot select a canonical local module.",
+        "sha256": "149c7d2a128bccbd942792a80c6b2c606dd51d779fa73d6d260f06e959835a99",
+        "bytes": 117985,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_674cc65b27d74d5b731428208c0526a68799a74ba50c81e872a3006c6117522a",
+        "frame_id": "519DA032F2CDA6657410A4321C68EFBD",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": "https://svg.new/_next/static/chunks/9cbe4ed0a4060735.js.map"
+      },
+      "url": "https://svg.new/_next/static/chunks/3be094660ef25ff3.js?dpl=dpl_J3jorTQ1uucN3auC8HiadLvK6xZ6",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-12-4e24d915d25dd2609816526cebdd6a1480b9208a9266b4d0759870a16711845f.js",
+        "layout": "isolated",
+        "layout_reason": "URL query, fragment, or credentials cannot select a canonical local module.",
+        "sha256": "f1ab8b5c1188d217dd1a31eaed53ca05ae77d0afc3645ed82184415c045e5d21",
+        "bytes": 39458,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_6b96c45126f8556c0d3c19df09d70e2dddeedf5ddd00fcb20a2878f176ca6c05",
+        "frame_id": "519DA032F2CDA6657410A4321C68EFBD",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://svg.new/_next/static/chunks/f56118a3155e29ad.js?dpl=dpl_J3jorTQ1uucN3auC8HiadLvK6xZ6",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-13-5d03c8fa4031002efbdd28b6c4c4b9c2efffa8e46ceebbad3bd0f815b056e292.js",
+        "layout": "isolated",
+        "layout_reason": "URL query, fragment, or credentials cannot select a canonical local module.",
+        "sha256": "695cadcd6fd956062b10c3ae35af7e46cfd4a0953fb9518827a16659f0557b4f",
+        "bytes": 372,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_6fbc35d73a3fb9d619dd9c80c261767032e73ed7857f81bb24b67fd164775aad",
+        "frame_id": "519DA032F2CDA6657410A4321C68EFBD",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": "https://svg.new/_next/static/chunks/30dd13621569d123.js.map"
+      },
+      "url": "https://svg.new/_next/static/chunks/c895eb1a16faf1b4.js?dpl=dpl_J3jorTQ1uucN3auC8HiadLvK6xZ6",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-14-086ada76c0d5f9c3e7d065f4070348966aa3652813fa870d358f36714d0b89ba.js",
+        "layout": "isolated",
+        "layout_reason": "URL query, fragment, or credentials cannot select a canonical local module.",
+        "sha256": "887db6bf791507cac9d2200579c5fcc81fa392f00fb8736008359cedb8ec469a",
+        "bytes": 67045,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_79caf1b8bbe55dd3e34150a7ddb6780baf0394f34de8385b2f466c6237575206",
+        "frame_id": "519DA032F2CDA6657410A4321C68EFBD",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": "https://svg.new/_next/static/chunks/788d97006af0de5c.js.map"
+      },
+      "url": "https://svg.new/_next/static/chunks/7c093a1571c5daf9.js?dpl=dpl_J3jorTQ1uucN3auC8HiadLvK6xZ6",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-15-adcae04d0ebf82a7e31a2f6fa2f11231cd298b9397424c60e4224a81ce851b2a.js",
+        "layout": "isolated",
+        "layout_reason": "URL query, fragment, or credentials cannot select a canonical local module.",
+        "sha256": "3f839aa5d658a587a22fc865a83e6b6bd5f9405dce0e6f89a1c22835d5ceed23",
+        "bytes": 117985,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_875d091b41ebd41d5b3c87ebe32fce2cd61e0098add62427f209931a2bd2945a",
+        "frame_id": "519DA032F2CDA6657410A4321C68EFBD",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": "https://svg.new/_next/static/chunks/ef9a8a68ba0faa81.js.map"
+      },
+      "url": "https://svg.new/_next/static/chunks/02e40de4b466ff9f.js?dpl=dpl_J3jorTQ1uucN3auC8HiadLvK6xZ6",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-16-6ea4d8e218ccd5755378bd4ca0d3bccab57e351ddd76d82bbdce2a0d33a8db5e.js",
+        "layout": "isolated",
+        "layout_reason": "URL query, fragment, or credentials cannot select a canonical local module.",
+        "sha256": "b9882aff3adbb1fc3be20e34497d34148ebf976bc23398786367ccf90ae46abf",
+        "bytes": 107009,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_8e6b0e47cc177c10a55c9098640651cfa5a0839af7346a803fc136040500638e",
+        "frame_id": "519DA032F2CDA6657410A4321C68EFBD",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": "https://svg.new/_next/static/chunks/26a8c855b93e9a1a.js.map"
+      },
+      "url": "https://svg.new/_next/static/chunks/c5179eb4c4f8382d.js?dpl=dpl_J3jorTQ1uucN3auC8HiadLvK6xZ6",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-17-404be1a89a899d088179223636941526e99f77ceef8c1b5587e9890be4aa5a12.js",
+        "layout": "isolated",
+        "layout_reason": "URL query, fragment, or credentials cannot select a canonical local module.",
+        "sha256": "a91684cabac97728d8ef754021157b5bc701b6147bb2b6784809d55d97966cb1",
+        "bytes": 25626,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_9113189dc4cb7a1d83a9213e160169e66c68a18a494914bda0c4df70fe012f26",
+        "frame_id": "519DA032F2CDA6657410A4321C68EFBD",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": "https://svg.new/_next/static/chunks/8919acb80cffab8c.js.map"
+      },
+      "url": "https://svg.new/_next/static/chunks/5aa63a8f2120e7b9.js?dpl=dpl_J3jorTQ1uucN3auC8HiadLvK6xZ6",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-18-8e59d9b0c96cc5f7cf1e5891b8642ae8aa12af7f54319e91db3d9c5c2927b61a.js",
+        "layout": "isolated",
+        "layout_reason": "URL query, fragment, or credentials cannot select a canonical local module.",
+        "sha256": "8d9196ee24e8b22ce9db5a823757bd33dd27eb4963254d7ec1514d09b2aa8bae",
+        "bytes": 64801,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_98bb2feeb09f944901c5b2a8ae17eceb641d80722ff4aa621249636ccee40abb",
+        "frame_id": "519DA032F2CDA6657410A4321C68EFBD",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": "https://svg.new/_next/static/chunks/59df8abf383a98eb.js.map"
+      },
+      "url": "https://svg.new/_next/static/chunks/0c81ea2bc270d098.js?dpl=dpl_J3jorTQ1uucN3auC8HiadLvK6xZ6",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-19-903077cc3656fa1a01e5856d7385cbf8be072cf5e3539d9920b6f815844845ec.js",
+        "layout": "isolated",
+        "layout_reason": "URL query, fragment, or credentials cannot select a canonical local module.",
+        "sha256": "d2ab0c7070fa82f1d26ba51627db11d79eba1b5b81052288084189edadfbda2e",
+        "bytes": 202390,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_9bec8231277cf9ff15f81ca7859d1692971ced88825c5a6581246c1241ce42bb",
+        "frame_id": "519DA032F2CDA6657410A4321C68EFBD",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": "https://svg.new/_next/static/chunks/512515dc561e593e.js.map"
+      },
+      "url": "https://svg.new/_next/static/chunks/turbopack-373e5fdefc3dc9d9.js?dpl=dpl_J3jorTQ1uucN3auC8HiadLvK6xZ6",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-20-5a2e2ae592d0a1ccd758030cf4a60306ba5cf8e785624884306a5413274599ff.js",
+        "layout": "isolated",
+        "layout_reason": "URL query, fragment, or credentials cannot select a canonical local module.",
+        "sha256": "93ae8d72fd83b0e7cf8b58f02e97095693d6fb2f721a73a121605c1e218d27d7",
+        "bytes": 10853,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_a0d86405be64d288821a58eceacb9d34353eb6184df7cdd0a1aaac45093c512e",
+        "frame_id": "519DA032F2CDA6657410A4321C68EFBD",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": "https://svg.new/_next/static/chunks/0d3e365ba16eb901.js.map"
+      },
+      "url": "https://svg.new/_next/static/chunks/turbopack-5b560b01c91c51d0.js?dpl=dpl_J3jorTQ1uucN3auC8HiadLvK6xZ6",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-21-2b505234b8a5ee683d1a26357a828a8f4675b0cf81583b782df2d94c607744e8.js",
+        "layout": "isolated",
+        "layout_reason": "URL query, fragment, or credentials cannot select a canonical local module.",
+        "sha256": "a119e843b015d68873abed1176602e65edb6e830e2e27d1ab491b0f575dc2980",
+        "bytes": 10925,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_af2c7499594ef545eef8e63892fe6659fcc32c4e177b70b3913da43c41cec6b2",
+        "frame_id": "519DA032F2CDA6657410A4321C68EFBD",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": "https://svg.new/_next/static/chunks/9caa79358754532b.js.map"
+      },
+      "url": "https://svg.new/_next/static/chunks/c551b0584a5cc7a0.js?dpl=dpl_J3jorTQ1uucN3auC8HiadLvK6xZ6",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-22-94d6a1c335a98300cf0d3fdde7e423588f08f8c73a11f745ccf3a3a5219fb15a.js",
+        "layout": "isolated",
+        "layout_reason": "URL query, fragment, or credentials cannot select a canonical local module.",
+        "sha256": "d77e42bc5e23a6ec6603ed3e7532a827557ac7ca10c7ef7334ca01a69a58677a",
+        "bytes": 40385,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_bba1e8e099513866b68fc94532f2ea5643186a85a1ba4510275cc40302c9ca3c",
+        "frame_id": "519DA032F2CDA6657410A4321C68EFBD",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": "https://svg.new/_next/static/chunks/512515dc561e593e.js.map"
+      },
+      "url": "https://svg.new/_next/static/chunks/turbopack-6eeca4e30403b5ce.js?dpl=dpl_J3jorTQ1uucN3auC8HiadLvK6xZ6",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-23-00d206691738fa4447c090a1c1de79ff9adb06956a2f780a5f137bd6f60a5811.js",
+        "layout": "isolated",
+        "layout_reason": "URL query, fragment, or credentials cannot select a canonical local module.",
+        "sha256": "904e9a6560438b8f5989b9c19aabea5baf4c19d548d8a7c7c86df523038847b8",
+        "bytes": 10853,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_ce38ed81412d4255926ccd2cf2a0a49b5fd1836ac289922f95ee8ceb9f65f7d5",
+        "frame_id": "519DA032F2CDA6657410A4321C68EFBD",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://svg.new/_next/static/_yBE_voFv0J8NfiWg5L9e/_ssgManifest.js?dpl=dpl_J3jorTQ1uucN3auC8HiadLvK6xZ6",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-24-4be206c1ecef60d8e25a71126593cc4b72d58dbb4cb3739f4c7352cb73f9c3f0.js",
+        "layout": "isolated",
+        "layout_reason": "URL query, fragment, or credentials cannot select a canonical local module.",
+        "sha256": "6035d14cc8e21a26883f6daa1ab4ef87e5c098ae81f067cea43f76641e44f078",
+        "bytes": 345,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_cf083d1924544afec9c5fafecae58f2e5d030cad75e745d125c2ae72b9463cf9",
+        "frame_id": "519DA032F2CDA6657410A4321C68EFBD",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": "https://svg.new/_next/static/chunks/eecb0c1123ebdd3d.js.map"
+      },
+      "url": "https://svg.new/_next/static/chunks/a450da05e207f7f4.js?dpl=dpl_J3jorTQ1uucN3auC8HiadLvK6xZ6",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-25-b09fde8af6b3c293b1ab6a7adad6a32ec390366483e5959aa1db3adae672e93c.js",
+        "layout": "isolated",
+        "layout_reason": "URL query, fragment, or credentials cannot select a canonical local module.",
+        "sha256": "7f0227a9e265f108afa255ff8fb26418c07d8e0dee87e5fa180912ce11358614",
+        "bytes": 44808,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_e4af7e12bb9d5d338ba4d5e2c11e802e04abb4786d6d76baf7afa100ab20f30b",
+        "frame_id": "519DA032F2CDA6657410A4321C68EFBD",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": "https://svg.new/_next/static/chunks/cde78db9f6d804f4.js.map"
+      },
+      "url": "https://svg.new/_next/static/chunks/turbopack-f14a5cc3b7ebc14d.js?dpl=dpl_J3jorTQ1uucN3auC8HiadLvK6xZ6",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-26-83f2e1eeaa96ef63da6739916b2d6c88d741678998d4db8c270b550ec4cedb63.js",
+        "layout": "isolated",
+        "layout_reason": "URL query, fragment, or credentials cannot select a canonical local module.",
+        "sha256": "f10c34681066b3c1eb7cefe34c7451972f70c8c24349efeaf27da9e3bc31395e",
+        "bytes": 10891,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_e69a373a8c23a788d464f357d2273c6933a5469b20fe0e757ade96fe4c8166f6",
+        "frame_id": "519DA032F2CDA6657410A4321C68EFBD",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": "https://svg.new/_next/static/chunks/044dd56a4b32f1e4.js.map"
+      },
+      "url": "https://svg.new/_next/static/chunks/0809e11e77742a34.js?dpl=dpl_J3jorTQ1uucN3auC8HiadLvK6xZ6",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-27-869e7512b6b20ab85454d4fb60a314e58fe6c2326e9b15e74e592a080afbc3bb.js",
+        "layout": "isolated",
+        "layout_reason": "URL query, fragment, or credentials cannot select a canonical local module.",
+        "sha256": "721bbff9d65437c6a916d976d2c7a3632fdfe98e8f40158949e86c90e01ba599",
+        "bytes": 64801,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    }
+  ],
+  "limitations": [
+    "Observation starts when REA attaches; prior network and console activity is unavailable.",
+    "Raw network headers, bodies, cookies, storage values, console objects, and WebSocket payloads are never retained; explicitly requested primitive console text is retained verbatim, while payload captures retain value-free shapes.",
+    "Source maps are reported only as declarative URLs and are not fetched.",
+    "URL-less scripts and console events without an allowed source URL are excluded because their origin cannot be proven.",
+    "CDP discovery omitted the target attachment state; attached is reported as unknown.",
+    "Only script bytes retained in this capture are exported. Sources are not refetched or executed, and a response or Debugger source does not prove execution.",
+    "Ordinary unambiguous URL paths preserve relative module layouts by origin, including case-distinct spellings. Query variants, exact path collisions, file/directory prefixes, inline sources, and unrepresentable paths are isolated. A case-distinct pair is isolated only when the destination filesystem cannot store both spellings; the record names that pair. Browser module relationships of isolated paths remain unknown.",
+    "Local JavaScript analysis does not implement browser import maps, root-relative URL resolution, remote URL loading, or browser runtime behavior. It may strip import queries and fragments; isolated variants are not canonical targets.",
+    "Source-map declarations are retained as metadata. No source maps or missing dependencies are fetched or reconstructed.",
+    "Scenario response bytes preserve the output of Playwright's Response.body() API; any source-body provenance caveat from the capture is retained in this manifest. Debugger sources are the exposed text encoded as UTF-8. Redacted bytes are exported exactly as retained, and may no longer parse as JavaScript."
+  ]
+}
